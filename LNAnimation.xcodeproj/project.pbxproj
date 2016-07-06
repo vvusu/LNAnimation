@@ -15,6 +15,14 @@
 		AFE3E6161D2D130C00DE6638 /* LNAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6151D2D130C00DE6638 /* LNAnimationTests.swift */; };
 		AFE3E6211D2D130C00DE6638 /* LNAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6201D2D130C00DE6638 /* LNAnimationUITests.swift */; };
 		AFE3E62F1D2D159D00DE6638 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E62E1D2D159D00DE6638 /* TableViewController.swift */; };
+		AFE3E6331D2D20AA00DE6638 /* PageControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6321D2D20AA00DE6638 /* PageControlCell.swift */; };
+		AFE3E6351D2D211C00DE6638 /* PageControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6341D2D211C00DE6638 /* PageControlVC.swift */; };
+		AFE3E63A1D2D26D800DE6638 /* LNAnimatedPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6391D2D26D800DE6638 /* LNAnimatedPageControl.swift */; };
+		AFE3E63C1D2D278E00DE6638 /* LNIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E63B1D2D278E00DE6638 /* LNIndicator.swift */; };
+		AFE3E63E1D2D299C00DE6638 /* LNGooeyCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E63D1D2D299C00DE6638 /* LNGooeyCircle.swift */; };
+		AFE3E6401D2D29BE00DE6638 /* LNRotateRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E63F1D2D29BE00DE6638 /* LNRotateRect.swift */; };
+		AFE3E6421D2D2A1000DE6638 /* LNPageLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6411D2D2A1000DE6638 /* LNPageLine.swift */; };
+		AFE3E6441D2D2A5900DE6638 /* LNSpringLayerAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6431D2D2A5900DE6638 /* LNSpringLayerAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		AFE3E6201D2D130C00DE6638 /* LNAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNAnimationUITests.swift; sourceTree = "<group>"; };
 		AFE3E6221D2D130C00DE6638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFE3E62E1D2D159D00DE6638 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AFE3E6321D2D20AA00DE6638 /* PageControlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlCell.swift; sourceTree = "<group>"; };
+		AFE3E6341D2D211C00DE6638 /* PageControlVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlVC.swift; sourceTree = "<group>"; };
+		AFE3E6391D2D26D800DE6638 /* LNAnimatedPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNAnimatedPageControl.swift; sourceTree = "<group>"; };
+		AFE3E63B1D2D278E00DE6638 /* LNIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNIndicator.swift; sourceTree = "<group>"; };
+		AFE3E63D1D2D299C00DE6638 /* LNGooeyCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNGooeyCircle.swift; sourceTree = "<group>"; };
+		AFE3E63F1D2D29BE00DE6638 /* LNRotateRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNRotateRect.swift; sourceTree = "<group>"; };
+		AFE3E6411D2D2A1000DE6638 /* LNPageLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNPageLine.swift; sourceTree = "<group>"; };
+		AFE3E6431D2D2A5900DE6638 /* LNSpringLayerAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LNSpringLayerAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		AFE3E5FF1D2D130C00DE6638 /* LNAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AFE3E6301D2D170F00DE6638 /* AnimationVC */,
 				AFE3E6001D2D130C00DE6638 /* AppDelegate.swift */,
 				AFE3E6021D2D130C00DE6638 /* ViewController.swift */,
 				AFE3E62E1D2D159D00DE6638 /* TableViewController.swift */,
@@ -126,6 +143,37 @@
 				AFE3E6221D2D130C00DE6638 /* Info.plist */,
 			);
 			path = LNAnimationUITests;
+			sourceTree = "<group>";
+		};
+		AFE3E6301D2D170F00DE6638 /* AnimationVC */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3E6311D2D205D00DE6638 /* AnimatedPageControl */,
+			);
+			path = AnimationVC;
+			sourceTree = "<group>";
+		};
+		AFE3E6311D2D205D00DE6638 /* AnimatedPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3E6381D2D26D800DE6638 /* LNAnimatedPageControl */,
+				AFE3E6321D2D20AA00DE6638 /* PageControlCell.swift */,
+				AFE3E6341D2D211C00DE6638 /* PageControlVC.swift */,
+			);
+			path = AnimatedPageControl;
+			sourceTree = "<group>";
+		};
+		AFE3E6381D2D26D800DE6638 /* LNAnimatedPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				AFE3E6411D2D2A1000DE6638 /* LNPageLine.swift */,
+				AFE3E63B1D2D278E00DE6638 /* LNIndicator.swift */,
+				AFE3E63F1D2D29BE00DE6638 /* LNRotateRect.swift */,
+				AFE3E63D1D2D299C00DE6638 /* LNGooeyCircle.swift */,
+				AFE3E6391D2D26D800DE6638 /* LNAnimatedPageControl.swift */,
+				AFE3E6431D2D2A5900DE6638 /* LNSpringLayerAnimation.swift */,
+			);
+			path = LNAnimatedPageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +308,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE3E6031D2D130C00DE6638 /* ViewController.swift in Sources */,
+				AFE3E6401D2D29BE00DE6638 /* LNRotateRect.swift in Sources */,
 				AFE3E62F1D2D159D00DE6638 /* TableViewController.swift in Sources */,
+				AFE3E6331D2D20AA00DE6638 /* PageControlCell.swift in Sources */,
+				AFE3E6421D2D2A1000DE6638 /* LNPageLine.swift in Sources */,
+				AFE3E63A1D2D26D800DE6638 /* LNAnimatedPageControl.swift in Sources */,
 				AFE3E6011D2D130C00DE6638 /* AppDelegate.swift in Sources */,
+				AFE3E63E1D2D299C00DE6638 /* LNGooeyCircle.swift in Sources */,
+				AFE3E6441D2D2A5900DE6638 /* LNSpringLayerAnimation.swift in Sources */,
+				AFE3E6351D2D211C00DE6638 /* PageControlVC.swift in Sources */,
+				AFE3E63C1D2D278E00DE6638 /* LNIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

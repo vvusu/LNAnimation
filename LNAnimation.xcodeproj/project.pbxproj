@@ -14,6 +14,7 @@
 		AFE3E60B1D2D130C00DE6638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE3E6091D2D130C00DE6638 /* LaunchScreen.storyboard */; };
 		AFE3E6161D2D130C00DE6638 /* LNAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6151D2D130C00DE6638 /* LNAnimationTests.swift */; };
 		AFE3E6211D2D130C00DE6638 /* LNAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E6201D2D130C00DE6638 /* LNAnimationUITests.swift */; };
+		AFE3E62F1D2D159D00DE6638 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE3E62E1D2D159D00DE6638 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AFE3E61C1D2D130C00DE6638 /* LNAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE3E6201D2D130C00DE6638 /* LNAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNAnimationUITests.swift; sourceTree = "<group>"; };
 		AFE3E6221D2D130C00DE6638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE3E62E1D2D159D00DE6638 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AFE3E6001D2D130C00DE6638 /* AppDelegate.swift */,
 				AFE3E6021D2D130C00DE6638 /* ViewController.swift */,
+				AFE3E62E1D2D159D00DE6638 /* TableViewController.swift */,
 				AFE3E6041D2D130C00DE6638 /* Main.storyboard */,
 				AFE3E6071D2D130C00DE6638 /* Assets.xcassets */,
 				AFE3E6091D2D130C00DE6638 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFE3E6031D2D130C00DE6638 /* ViewController.swift in Sources */,
+				AFE3E62F1D2D159D00DE6638 /* TableViewController.swift in Sources */,
 				AFE3E6011D2D130C00DE6638 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				AFE3E6271D2D130C00DE6638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFE3E6281D2D130C00DE6638 /* Build configuration list for PBXNativeTarget "LNAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				AFE3E62A1D2D130C00DE6638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFE3E62B1D2D130C00DE6638 /* Build configuration list for PBXNativeTarget "LNAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				AFE3E62D1D2D130C00DE6638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
